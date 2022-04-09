@@ -5,8 +5,6 @@ from django.shortcuts import render
 from django.contrib.auth import authenticate ,login,logout
 from django .contrib.auth.decorators import login_required
 from django.http import HttpResponse
-from itsdangerous import Serializer
-from matplotlib.style import context
 from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
